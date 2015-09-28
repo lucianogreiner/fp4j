@@ -4,7 +4,7 @@ Functional Programming Utilities for Java 8.
 This library contains some functional programming constructs heavily inspired on Scala programming language that are still missing in Java 8 standard api.
 
 ## Either
-Java 8 introduced java.util.Optional object that makes it easier to represent an optional values in a null-safe manner. The use of it turns very noticeably what parameters, return values and variables might be null. 
+Java 8 introduced the Optional class that makes it easier to represent optional values in a null-safe manner. The use it turns noticeably what parameters, return values and variables might be null. 
 
 It's also quite often useful to have some logic that might result in either one of two different types of values depending on a set of inputs. In Java, and in the majority of programming languages, it is not possible for same function or method that result more than one type and value.
 
